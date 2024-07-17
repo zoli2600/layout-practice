@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 100px;
+
+    border: 2px solid gray;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+div.left{
+border: 2px solid red;
+
+min-height: calc(100vh - 100px);
+
+width: 30vw;
+}
+
+div.center{
+
+border: 2px solid blue;
+}
+
+div.right{
+border: 2px solid yellow;
+
+min-height: calc(100vh- 100px);
+}
